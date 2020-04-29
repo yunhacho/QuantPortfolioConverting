@@ -36,9 +36,9 @@ for i in range(1,KOR_ticker.shape[0]):
     price_list.append(sr)
 
 df=pd.concat(price_list,axis=1)
-print(df)
+#print(df)
 
-df.tail(n=5)
+#df.tail(n=5)
 
 
 
